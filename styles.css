@@ -1,4 +1,5 @@
 body{
+    background-color:#F4F4F4;
     margin: 6.25em;
     text-wrap: balance;
 }
@@ -9,13 +10,14 @@ h1{
     font-size: 4em;
     line-height: 110%;
     margin:0;
+    color: #393C5E;
 }
 
 h2{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 1em;
     font-weight: 700;
-    margin: 1.875em 0px 0.7em;
+    margin: 1.5em 0em 0.45em;
 }
 
 p{
@@ -23,5 +25,28 @@ font-family:'Open Sans', Arial, Helvetica, sans-serif;
 font-size: 1em;
 font-weight: 300;
 line-height: 200%;
-margin: 0em 0em 0.7em;
+margin: 0em 0em .9em;
+color: #4D4E52;
+}
+
+/* Color Coordinated h2s */
+/* pu-h2 is publication project h2s */
+/* b-h2 is brand identity project h2s */
+/* po-h2 is poster design project h2s */
+/* t-h2 is typography project h2s */
+
+.pu-h2{
+    color:#3EAF7F;
+}
+
+.b-h2{
+    color: #C67BF4;
+}
+
+.po-h2{
+    color: #EC7E4F;
+}
+
+.t-h2{
+    color:#FF5858;
 }

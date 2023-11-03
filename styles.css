@@ -1,19 +1,27 @@
-
-
+body{
+    margin: 6.25em;
+    text-wrap: balance;
+}
+/* 1 em = 16px*/
 /* Other CSS rules here */
 h1{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 62px;
+    font-size: 4em;
+    line-height: 110%;
+    margin:0;
 }
 
 h2{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 1.875em 0px 0.7em;
 }
 
 p{
 font-family:'Open Sans', Arial, Helvetica, sans-serif;
-font-size: 18px;
-font-weight: 400;
+font-size: 1em;
+font-weight: 300;
+line-height: 200%;
+margin: 0em 0em 0.7em;
 }

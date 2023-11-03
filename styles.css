@@ -1,3 +1,19 @@
-body{
-    font-family:'Open+Sans', sans-serif;
+
+
+/* Other CSS rules here */
+h1{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 62px;
+}
+
+h2{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+font-family:'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 400;
 }

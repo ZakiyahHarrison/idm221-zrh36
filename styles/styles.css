@@ -1,6 +1,5 @@
 
 /* picture rules*/
-
 img {
     display: block;
     margin-bottom: 15px;
@@ -15,21 +14,23 @@ img {
     overflow: hidden;
 }
 
+.home-image-hero{
+    position: relative;
+    width: calc(100% + 2.25em * 2);
+    margin: .25em 0 0 -2.25em;
+    overflow: hidden;
+}
+
 body{
     background-color:#F4F4F4;
     margin: 2.25em;
     text-wrap: balance;
 }
-/* 1 em = 16px*/
-/* Other CSS rules here */
-h1{
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 3em;
-    line-height: 110%;
-    margin:0;
-    color: #393C5E;
-}
+/* units - 1 em = 16px*/
 
+
+
+/*heading and typography rules here*/
 h2{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 1.25em;
@@ -40,8 +41,22 @@ h2{
 
 h3{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 1em; 
+    font-size: 1.35em; 
+    text-align: center;
+    text-decoration: none;
 }
+
+h4{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5em; 
+    margin: .25em 0 1.5em 0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
 
 p{
 font-family:'Open Sans', Arial, Helvetica, sans-serif;
@@ -52,6 +67,37 @@ margin: 0.25em 0 1em;
 color: #4D4E52;
 }
 
+
+h1{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    line-height: 110%;
+    margin:0;
+    color: #393C5E;
+}
+
+/*home page title styling, mostly word specifics*/
+    .home-title{
+    font-size: 2.75em;
+    }
+
+    .home-title-2{
+        font-size: 4.45em;
+    }
+
+    .home-name-2{
+        font-size: 2.45em;
+    }
+
+    .home-name-2, .home-title-2{
+        line-height: 80%;
+        margin-bottom: .5em;
+    }
+
+    .home-name, .home-name-2, .home-title, .home-title-2{
+        text-align: center;
+    }
+
 /* Color Coordinated h2s */
 /* pu-h2 is publication project h2s */
 /* b-h2 is brand identity project h2s */
@@ -59,7 +105,7 @@ color: #4D4E52;
 /* t-h2 is typography project h2s */
 /* hometitle is homepage h1*/
 
-.pu-h2, .hometitle{
+.pu-h2, .home-title, .home-title-2{
     color:#3EAF7F;
 }
 

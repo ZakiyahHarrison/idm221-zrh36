@@ -56,6 +56,14 @@ body{
 
 
 /*heading and typography rules here*/
+h1{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    line-height: 110%;
+    margin:0;
+    color: #393C5E;
+}
+
 h2{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 1.25em;
@@ -82,7 +90,6 @@ a{
     text-decoration: none;
 }
 
-
 p{
 font-family:'Open Sans', Arial, Helvetica, sans-serif;
 font-size: .85em;
@@ -93,13 +100,7 @@ color: var(--primary);
 }
 
 
-h1{
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 3em;
-    line-height: 110%;
-    margin:0;
-    color: #393C5E;
-}
+
 
 /*home page title styling, mostly word specifics*/
     .home-title{

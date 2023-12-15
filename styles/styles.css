@@ -17,17 +17,42 @@ img {
 .home-image-hero{
     position: relative;
     width: calc(100% + 2.25em * 2);
-    margin: .25em 0 0 -2.25em;
+    margin: 1em 0 0 -2.25em;
     overflow: hidden;
 }
 
 body{
     background-color:#F4F4F4;
-    margin: 2.25em;
+    margin: 8em 2.25em 0 2.25em;
     text-wrap: balance;
 }
 /* units - 1 em = 16px*/
 
+/* footer and navigation rules */
+.navbar {
+    background-color:#FFFFFF ;
+    padding: 20px;
+    width: 320px;
+    height: 4.375em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the navigation bar stays on top of other elements */
+}
+
+
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width:320px;
+    margin: 0 0 0 -2.25em;
+    background-color: #C67BF4; /* Choose your background color */
+    color: #F4F4F4; /* Choose your text color */
+    text-align: center;
+    padding: 5px; /* Adjust padding as needed */
+}
 
 
 /*heading and typography rules here*/
